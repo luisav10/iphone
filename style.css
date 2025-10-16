@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(248, 248, 248);
+}
+#navbar{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#navbar img{
+    width: 15px;
+}
+#navbar a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #4a4a4a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#inicio{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    margin-left: 80px;
+}
+#inicio h1{
+    color: #6e6e73;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    
+}
+span{
+    color: black;
+}
+#produto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+#produtos{
+    height: 82vh;
+    width: 28vw;
+    border-radius: 4%;
+    background-color: white;
+box-shadow: 0px -2px 28px -14px rgba(0,0,0,0.4);
+-webkit-box-shadow: 0px -2px 28px -14px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px -2px 28px -14px rgba(0,0,0,0.4);
+}
+#produtos img{
+    width: 340px;
+}
+#produtos #iphone17{
+    width: 305px;
+}
+#produtos h3{
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: .007em;
+    margin: 0 0 9px;
+    padding: 24px;
+}
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.botoes{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    margin-top: 60px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.botoes p{
+    font-size: 14px;
+    font-family: Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.botoes button{
+    background-color: #0e66d9;
+    color: white;
+    border: none;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding: 8px 15px;
+    border-radius: 18px;
+}
